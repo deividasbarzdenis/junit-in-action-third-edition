@@ -6,7 +6,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>junit-in-action-third-edition</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Exploring_core_JUnit</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
