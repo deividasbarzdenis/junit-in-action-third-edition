@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/coreAnnotations/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/coreAnnatations/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/coreAnnotations/SUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/coreAnnotations/SUTTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploring_core_JUnit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exploring_core_JUnit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,6 +38,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -49,8 +48,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\.idea" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lt.debarz.coreAnnotations" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.SUTTest.testHello">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exploring_core_JUnit" />
       <extension name="coverage">
@@ -82,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SUTTest.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.coreAnnotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.coreAnnotations" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.coreAnnotations.SUTTest" />
+      <option name="METHOD_NAME" value="testHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SUTTest.testHello" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.testAdd" />
       </list>
@@ -98,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1644351840904</updated>
       <workItem from="1644351842510" duration="830000" />
-      <workItem from="1644739013450" duration="2760000" />
+      <workItem from="1644739013450" duration="2800000" />
+      <workItem from="1644943217752" duration="1121000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -124,7 +147,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1644439653327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Added JUnit 5 dependencies and Calculator class ir test class.">
+      <created>1644930607446</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1644930607446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="third" />
     <MESSAGE value="Added module of Exploring core JUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added module of Exploring core JUnit" />
+    <MESSAGE value="Added JUnit 5 dependencies and Calculator class ir test class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JUnit 5 dependencies and Calculator class ir test class." />
   </component>
 </project>
