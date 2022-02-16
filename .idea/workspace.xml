@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/coreAnnotations/SUT1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/nestedTest/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/nestedTest/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/coreAnnotations/DisabledClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/nestedTest/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/taggedTest/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/taggedTest/CustomersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/taggedTest/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/taggedTest/CustomersRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,21 +54,37 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lt.debarz.taggedTest" />
       <recent name="lt.debarz.nestedTest" />
       <recent name="lt.debarz.coreAnnotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NestedTest$BuilderTest">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerTest">
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exploring_core_JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.debarz.coreAnnatations.*" />
+          <option name="PATTERN" value="lt.debarz.taggedTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.coreAnnatations" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.coreAnnatations.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="lt.debarz.taggedTest" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.taggedTest.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomersRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.taggedTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.taggedTest" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.taggedTest.CustomersRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SUTTest.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.coreAnnotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.coreAnnotations" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.coreAnnotations.SUTTest" />
-      <option name="METHOD_NAME" value="testHello" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomersRepositoryTest" />
         <item itemvalue="JUnit.NestedTest$BuilderTest" />
         <item itemvalue="JUnit.NestedTest$BuilderTest.customerBuilder" />
         <item itemvalue="JUnit.DisabledClassTest" />
-        <item itemvalue="JUnit.SUTTest.testHello" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,7 @@
       <updated>1644351840904</updated>
       <workItem from="1644351842510" duration="830000" />
       <workItem from="1644739013450" duration="2800000" />
-      <workItem from="1644943217752" duration="4847000" />
+      <workItem from="1644943217752" duration="5521000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -195,7 +194,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1644944701532</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Test examples with @Nested annotation">
+      <created>1645006953749</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1645006953749</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +211,7 @@
     <MESSAGE value="Added module of Exploring core JUnit" />
     <MESSAGE value="Added JUnit 5 dependencies and Calculator class ir test class." />
     <MESSAGE value="Test examples with @DisplayName annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test examples with @DisplayName annotation" />
+    <MESSAGE value="Test examples with @Nested annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test examples with @Nested annotation" />
   </component>
 </project>
