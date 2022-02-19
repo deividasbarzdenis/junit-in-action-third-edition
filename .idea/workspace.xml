@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/taggedTest/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/taggedTest/CustomersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/taggedTest/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/taggedTest/CustomersRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assertions/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assertions/NoJobException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assertions/SUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/assertions/AssertAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/assertions/AssertTimeoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,90 +60,92 @@
       <recent name="lt.debarz.coreAnnotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest">
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssertThrowsTest">
+    <configuration name="AssertAllTest.testNoJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exploring_core_JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.debarz.taggedTest.*" />
+          <option name="PATTERN" value="lt.debarz.assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.taggedTest" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.taggedTest.CustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomersRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.taggedTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.taggedTest" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.taggedTest.CustomersRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DisabledClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.coreAnnotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.coreAnnotations" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.coreAnnotations.DisabledClassTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NestedTest$BuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.nestedTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.nestedTest.NestedTest" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.nestedTest.NestedTest$BuilderTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NestedTest$BuilderTest.customerBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.nestedTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.nestedTest.NestedTest" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.nestedTest.NestedTest$BuilderTest" />
-      <option name="METHOD_NAME" value="customerBuilder" />
+      <option name="PACKAGE_NAME" value="lt.debarz.assertions" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.assertions.AssertAllTest" />
+      <option name="METHOD_NAME" value="testNoJob" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertAllTest.testSystemNotUnderVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.assertions" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.assertions.AssertAllTest" />
+      <option name="METHOD_NAME" value="testSystemNotUnderVerification" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertAllTest.testSystemUnderVerification1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.assertions" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.assertions.AssertAllTest" />
+      <option name="METHOD_NAME" value="testSystemUnderVerification1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertThrowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.assertions" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.assertions.AssertThrowsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertTimeoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.assertions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.assertions" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.assertions.AssertTimeoutTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.CustomersRepositoryTest" />
-        <item itemvalue="JUnit.NestedTest$BuilderTest" />
-        <item itemvalue="JUnit.NestedTest$BuilderTest.customerBuilder" />
-        <item itemvalue="JUnit.DisabledClassTest" />
+        <item itemvalue="JUnit.AssertThrowsTest" />
+        <item itemvalue="JUnit.AssertTimeoutTest" />
+        <item itemvalue="JUnit.AssertAllTest.testSystemNotUnderVerification" />
+        <item itemvalue="JUnit.AssertAllTest.testNoJob" />
+        <item itemvalue="JUnit.AssertAllTest.testSystemUnderVerification1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +159,8 @@
       <updated>1644351840904</updated>
       <workItem from="1644351842510" duration="830000" />
       <workItem from="1644739013450" duration="2800000" />
-      <workItem from="1644943217752" duration="5521000" />
+      <workItem from="1644943217752" duration="5901000" />
+      <workItem from="1645266610291" duration="1356000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -200,7 +204,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1645006953749</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Test examples with @Tag annotation">
+      <created>1645007550694</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1645007550694</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +222,7 @@
     <MESSAGE value="Added JUnit 5 dependencies and Calculator class ir test class." />
     <MESSAGE value="Test examples with @DisplayName annotation" />
     <MESSAGE value="Test examples with @Nested annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test examples with @Nested annotation" />
+    <MESSAGE value="Test examples with @Tag annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test examples with @Tag annotation" />
   </component>
 </project>
