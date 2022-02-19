@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/dynamic/PositiveNumberPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/parameterized/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/dynamic/DynamicTestsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/parameterized/ParameterizedWithCsvFileSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/parameterized/ParameterizedWithCsvSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/parameterized/ParameterizedWithEnumSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/parameterized/ParameterizedWithValueSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/resources/word_counter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/hamcrest/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/hamcrest/HamcrestListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/hamcrest/HamcrestMatchersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploring_core_JUnit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exploring_core_JUnit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <recent name="lt.debarz.coreAnnotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DynamicTestsTest">
+  <component name="RunManager" selected="JUnit.HamcrestMatchersTest">
     <configuration name="DynamicTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exploring_core_JUnit" />
       <extension name="coverage">
@@ -79,6 +74,52 @@
       </extension>
       <option name="PACKAGE_NAME" value="lt.debarz.dynamic" />
       <option name="MAIN_CLASS_NAME" value="lt.debarz.dynamic.DynamicTestsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.hamcrest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.hamcrest" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.hamcrest.HamcrestListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestListTest.testListWithHamcrest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.hamcrest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.hamcrest" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.hamcrest.HamcrestListTest" />
+      <option name="METHOD_NAME" value="testListWithHamcrest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMatchersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.hamcrest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.hamcrest" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.hamcrest.HamcrestMatchersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,59 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizedWithCsvSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.parameterized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.parameterized" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.parameterized.ParameterizedWithCsvSourceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterizedWithEnumSourceTest.testWordsInSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.parameterized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.parameterized" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.parameterized.ParameterizedWithEnumSourceTest" />
-      <option name="METHOD_NAME" value="testWordsInSentence(lt.debarz.parameterized.ParameterizedWithEnumSourceTest$Sentences)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatedTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.repeatedTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.repeatedTests" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.repeatedTests.RepeatedTestsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestMatchersTest" />
+        <item itemvalue="JUnit.HamcrestListTest.testListWithHamcrest" />
+        <item itemvalue="JUnit.HamcrestListTest" />
         <item itemvalue="JUnit.DynamicTestsTest" />
         <item itemvalue="JUnit.ParameterizedWithCsvFileSourceTest.testWordsInSentence" />
-        <item itemvalue="JUnit.ParameterizedWithCsvSourceTest" />
-        <item itemvalue="JUnit.ParameterizedWithEnumSourceTest.testWordsInSentence" />
-        <item itemvalue="JUnit.RepeatedTestsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +162,7 @@
       <workItem from="1644351842510" duration="830000" />
       <workItem from="1644739013450" duration="2800000" />
       <workItem from="1644943217752" duration="5901000" />
-      <workItem from="1645266610291" duration="4696000" />
+      <workItem from="1645266610291" duration="6435000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -235,7 +230,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1645269953116</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Test examples with dynamic tests">
+      <created>1645271602485</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1645271602486</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +252,7 @@
     <MESSAGE value="Test examples with Assertions" />
     <MESSAGE value="Test examples with Dependency injection in JUnit 5" />
     <MESSAGE value="Test examples with repeated tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test examples with repeated tests" />
+    <MESSAGE value="Test examples with dynamic tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test examples with dynamic tests" />
   </component>
 </project>
