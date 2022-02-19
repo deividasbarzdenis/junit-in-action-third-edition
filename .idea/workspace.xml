@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assumptions/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assumptions/SUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assumptions/environment/JavaSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assumptions/environment/OperationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/assumptions/environment/TestsEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/assertions/assumptions/AssumptionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/dependencyinjection/TestInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/dependencyinjection/TestReporterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/repeatedTests/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/repeatedTests/RepeatedTestsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,22 +57,7 @@
       <recent name="lt.debarz.coreAnnotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestReporterTest">
-    <configuration name="AssertThrowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.assertions" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.assertions.AssertThrowsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RepeatedTestsTest">
     <configuration name="AssumptionsTest.testJobToRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exploring_core_JUnit" />
       <extension name="coverage">
@@ -107,6 +86,21 @@
       <option name="MAIN_CLASS_NAME" value="lt.debarz.assumptions.AssumptionsTest" />
       <option name="METHOD_NAME" value="testNoJobToRun" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatedTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exploring_core_JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.repeatedTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz.repeatedTests" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.repeatedTests.RepeatedTestsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepeatedTestsTest" />
         <item itemvalue="JUnit.TestReporterTest" />
         <item itemvalue="JUnit.TestInfoTest" />
         <item itemvalue="JUnit.AssumptionsTest.testJobToRun" />
         <item itemvalue="JUnit.AssumptionsTest.testNoJobToRun" />
-        <item itemvalue="JUnit.AssertThrowsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +156,7 @@
       <workItem from="1644351842510" duration="830000" />
       <workItem from="1644739013450" duration="2800000" />
       <workItem from="1644943217752" duration="5901000" />
-      <workItem from="1645266610291" duration="2807000" />
+      <workItem from="1645266610291" duration="3228000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -218,7 +212,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1645268245171</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Test examples with Dependency injection in JUnit 5">
+      <created>1645269478141</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1645269478141</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +232,7 @@
     <MESSAGE value="Test examples with @Nested annotation" />
     <MESSAGE value="Test examples with @Tag annotation" />
     <MESSAGE value="Test examples with Assertions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test examples with Assertions" />
+    <MESSAGE value="Test examples with Dependency injection in JUnit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test examples with Dependency injection in JUnit 5" />
   </component>
 </project>
