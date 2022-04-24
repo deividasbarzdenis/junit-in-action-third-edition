@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/main/java/lt/debarz/hamcrest/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/hamcrest/HamcrestListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploring_core_JUnit/src/test/java/lt/debarz/hamcrest/HamcrestMatchersTest.java" afterDir="false" />
+    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="Test examples with hamcrest tests">
+      <change afterPath="$PROJECT_DIR$/DifferentTestingStrategies/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DifferentTestingStrategies/src/main/java/lt/debarz/chapter_06/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DifferentTestingStrategies/src/test/java/lt/debarz/chapter_06/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit_Architecture/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploring_core_JUnit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exploring_core_JUnit/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +20,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\DifferentTestingStrategies\report" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,13 +51,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DifferentTestingStrategies/report" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.debarz.parameterized" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\DifferentTestingStrategies\src\main\java\lt\debarz\chapter_06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\.idea" />
@@ -58,12 +72,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lt.debarz.chapter_06" />
       <recent name="lt.debarz.taggedTest" />
       <recent name="lt.debarz.nestedTest" />
       <recent name="lt.debarz.coreAnnotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestMatchersTest">
+  <component name="RunManager" selected="JUnit.lt.debarz.chapter_06 in DifferentTestingStrategies">
     <configuration name="DynamicTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exploring_core_JUnit" />
       <extension name="coverage">
@@ -125,29 +140,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizedWithCsvFileSourceTest.testWordsInSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exploring_core_JUnit" />
+    <configuration name="lt.debarz.chapter_06 in DifferentTestingStrategies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DifferentTestingStrategies" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.debarz.parameterized.*" />
+          <option name="PATTERN" value="lt.debarz.chapter_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz.parameterized" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.parameterized.ParameterizedWithCsvFileSourceTest" />
-      <option name="METHOD_NAME" value="testWordsInSentence(int,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="lt.debarz.chapter_06" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.lt.debarz.chapter_06 in DifferentTestingStrategies" />
         <item itemvalue="JUnit.HamcrestMatchersTest" />
         <item itemvalue="JUnit.HamcrestListTest.testListWithHamcrest" />
         <item itemvalue="JUnit.HamcrestListTest" />
         <item itemvalue="JUnit.DynamicTestsTest" />
-        <item itemvalue="JUnit.ParameterizedWithCsvFileSourceTest.testWordsInSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +175,12 @@
       <workItem from="1644351842510" duration="830000" />
       <workItem from="1644739013450" duration="2800000" />
       <workItem from="1644943217752" duration="5901000" />
-      <workItem from="1645266610291" duration="6435000" />
+      <workItem from="1645266610291" duration="6550000" />
+      <workItem from="1645282799489" duration="930000" />
+      <workItem from="1649579676673" duration="1873000" />
+      <workItem from="1650654881208" duration="1689000" />
+      <workItem from="1650735353642" duration="831000" />
+      <workItem from="1650791677731" duration="2397000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -236,7 +254,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1645271602486</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Test examples with hamcrest tests">
+      <created>1645273999903</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1645273999903</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +277,12 @@
     <MESSAGE value="Test examples with Dependency injection in JUnit 5" />
     <MESSAGE value="Test examples with repeated tests" />
     <MESSAGE value="Test examples with dynamic tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test examples with dynamic tests" />
+    <MESSAGE value="Test examples with hamcrest tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test examples with hamcrest tests" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit_in_action_third_edition$lt_debarz_chapter_06_in_DifferentTestingStrategies.ic" NAME="lt.debarz.chapter_06 in DifferentTestingStrategies Coverage Results" MODIFIED="1650792197325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lt.debarz.chapter_06.*</FILTER>
+    </SUITE>
   </component>
 </project>

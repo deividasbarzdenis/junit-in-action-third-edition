@@ -10,9 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lt.debarz</groupId>
-    <artifactId>exploring_core_JUnit</artifactId>
+    <artifactId>unit_architecture</artifactId>
 
-    <name>exploring_core_JUnit</name>
+    <name>unit_architecture</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -23,7 +23,6 @@
     </properties>
 
     <dependencies>
-
 
     </dependencies>
 

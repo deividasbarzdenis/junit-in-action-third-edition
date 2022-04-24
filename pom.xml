@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Exploring_core_JUnit</module>
+        <module>Unit_Architecture</module>
+        <module>DifferentTestingStrategies</module>
     </modules>
 
     <properties>
@@ -38,6 +40,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>

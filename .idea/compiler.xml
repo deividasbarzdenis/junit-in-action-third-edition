@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DifferentTestingStrategies" />
         <module name="Exploring_core_JUnit" />
+        <module name="Unit_Architecture" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
