@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/account/AccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/account/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/account/DefaultAccountManager1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/account/DefaultAccountManager2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/configuration/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/configuration/DefaultConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/web/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/web/HttpURLConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/web/WebClient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/main/java/org/example/web/WebClient2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/test/java/org/example/account/TestAccountServiceEasyMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/test/java/org/example/account/TestAccountServiceJMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/test/java/org/example/account/TestAccountServiceMockito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/test/java/org/example/web/TestWebClientEasyMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/test/java/org/example/web/TestWebClientJMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch08-mocks/src/test/java/org/example/web/TestWebClientMockito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-incontainer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/airport/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/airport/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/servlet/SampleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -57,27 +44,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Deividas/Documents/JUNIT/junit-in-action-third-edition/ch08-mocks/src/main/java/org/example/web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Deividas/Documents/JUNIT/junit-in-action-third-edition/ch09-incontainer/src/main/java/org/example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.debarz.parameterized" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch09-incontainer\src\main\java\org\example" />
       <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch08-mocks\src\main\java\org\example\web" />
       <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch08-mocks\src\main\java\org\example\configuration" />
       <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch08-mocks\src\main\java\org\example\account" />
@@ -98,6 +86,12 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestWebClientMockito">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAccountServiceJMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch08-mocks" />
       <extension name="coverage">
@@ -202,7 +196,7 @@
       <workItem from="1650735353642" duration="831000" />
       <workItem from="1650791677731" duration="2461000" />
       <workItem from="1653831883579" duration="997000" />
-      <workItem from="1653832903474" duration="8309000" />
+      <workItem from="1653832903474" duration="9028000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -288,7 +282,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1650794148355</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added chapter 8 module and mockito, JMock, easyMock test examples">
+      <created>1653844045855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653844045855</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +308,8 @@
     <MESSAGE value="Test examples with dynamic tests" />
     <MESSAGE value="Test examples with hamcrest tests" />
     <MESSAGE value="Added new module of chapter 06 good test quality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new module of chapter 06 good test quality" />
+    <MESSAGE value="Added chapter 8 module and mockito, JMock, easyMock test examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added chapter 8 module and mockito, JMock, easyMock test examples" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/junit_in_action_third_edition$lt_debarz_chapter_06_in_DifferentTestingStrategies.ic" NAME="lt.debarz.chapter_06 in DifferentTestingStrategies Coverage Results" MODIFIED="1650792197325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

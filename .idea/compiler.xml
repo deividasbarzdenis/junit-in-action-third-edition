@@ -11,6 +11,7 @@
         <module name="Unit_Architecture" />
         <module name="exploring_core_JUnit" />
         <module name="unit_architecture" />
+        <module name="ch09-incontainer" />
         <module name="differentTestingStrategies" />
         <module name="ch08-mocks" />
       </profile>

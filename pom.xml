@@ -13,6 +13,7 @@
         <module>Unit_Architecture</module>
         <module>DifferentTestingStrategies</module>
         <module>ch08-mocks</module>
+        <module>ch09-incontainer</module>
     </modules>
 
     <properties>
