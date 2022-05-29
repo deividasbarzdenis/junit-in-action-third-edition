@@ -12,6 +12,7 @@
         <module>Exploring_core_JUnit</module>
         <module>Unit_Architecture</module>
         <module>DifferentTestingStrategies</module>
+        <module>ch08-mocks</module>
     </modules>
 
     <properties>

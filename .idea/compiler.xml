@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DifferentTestingStrategies" />
         <module name="Exploring_core_JUnit" />
+        <module name="DifferentTestingStrategies" />
         <module name="Unit_Architecture" />
+        <module name="exploring_core_JUnit" />
+        <module name="unit_architecture" />
+        <module name="differentTestingStrategies" />
+        <module name="ch08-mocks" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
