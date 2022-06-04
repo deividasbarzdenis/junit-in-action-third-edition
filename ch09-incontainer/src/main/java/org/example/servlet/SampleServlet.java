@@ -29,8 +29,7 @@ import javax.servlet.http.HttpSession;
  *
  * @version $Id$
  */
-public class SampleServlet
-        extends HttpServlet {
+public class SampleServlet extends HttpServlet {
 
     /**
      * Default serial version ID.
