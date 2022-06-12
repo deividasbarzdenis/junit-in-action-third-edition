@@ -14,6 +14,8 @@
         <module>DifferentTestingStrategies</module>
         <module>ch08-mocks</module>
         <module>ch09-incontainer</module>
+        <module>ch10-maven</module>
+        <module>ch13-continuous</module>
     </modules>
 
     <properties>
