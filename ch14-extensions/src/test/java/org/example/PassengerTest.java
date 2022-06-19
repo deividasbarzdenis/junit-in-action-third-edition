@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.extensions.DataAccessObjectParameterResolver;
 import org.example.extensions.DatabaseOperationsExtension;
 import org.example.extensions.ExecutionContextExtension;
 import org.example.jdbc.PassengerDao;
@@ -9,9 +10,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.io.IOException;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@ExtendWith({ExecutionContextExtension.class, DatabaseOperationsExtension.class})
+@ExtendWith({ExecutionContextExtension.class,
+        DatabaseOperationsExtension.class,
+        DataAccessObjectParameterResolver.class})
 class PassengerTest {
 
     private PassengerDao passengerDao;
@@ -54,7 +58,6 @@ class PassengerTest {
         passengerDao.delete(passenger);
 
         assertNotNull(passengerDao.getById("123-456-789"));
-
     }
 
 }

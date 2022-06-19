@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch09-incontainer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/airport/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/airport/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/servlet/SampleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch09-incontainer/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="Added DatabaseOperationsExtension class that implements before and after interfaces">
+      <change afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/extensions/DataAccessObjectParameterResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/PassengerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,32 +41,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Deividas/Documents/JUNIT/junit-in-action-third-edition/ch09-incontainer/src/main/java/org/example&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Deividas/Documents/JUNIT/junit-in-action-third-edition/ch14-extensions/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.debarz.parameterized" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch09-incontainer\src\main\java\org\example" />
-      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch08-mocks\src\main\java\org\example\web" />
-      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch08-mocks\src\main\java\org\example\configuration" />
-      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch08-mocks\src\main\java\org\example\account" />
-      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\DifferentTestingStrategies\src\main\java\lt\debarz\chapter_06" />
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch14-extensions\src\test\resources" />
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch14-extensions\src\main\java\org\example" />
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch13-continuous\src\test\resources" />
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch13-continuous\src\main\java\org\example" />
+      <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\ch09-incontainer\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Deividas\Documents\JUNIT\junit-in-action-third-edition\.idea" />
@@ -78,103 +76,111 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+      <recent name="org.example.kayak" />
       <recent name="org.example.web" />
       <recent name="org.example.account" />
       <recent name="lt.debarz.chapter_06" />
-      <recent name="lt.debarz.taggedTest" />
-      <recent name="lt.debarz.nestedTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestWebClientMockito">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PassengerTest.testInsertPassenger">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13-continuous" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FlightTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccountServiceJMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch08-mocks" />
+    <configuration name="FlightWithPassengerTest.testAddRemovePassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13-continuous" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.account.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.account" />
-      <option name="MAIN_CLASS_NAME" value="org.example.account.TestAccountServiceJMock" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAccountServiceMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch08-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.account" />
-      <option name="MAIN_CLASS_NAME" value="org.example.account.TestAccountServiceMockito" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAccountServiceMockito.testTransferOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch08-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.account" />
-      <option name="MAIN_CLASS_NAME" value="org.example.account.TestAccountServiceMockito" />
-      <option name="METHOD_NAME" value="testTransferOk" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FlightWithPassengerTest" />
+      <option name="METHOD_NAME" value="testAddRemovePassengers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWebClientJMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch08-mocks" />
+    <configuration name="FlightWithPassengerTest.testNumberOfSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13-continuous" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.web.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.web" />
-      <option name="MAIN_CLASS_NAME" value="org.example.web.TestWebClientJMock" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FlightWithPassengerTest" />
+      <option name="METHOD_NAME" value="testNumberOfSeats" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWebClientMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch08-mocks" />
+    <configuration name="PassengerTest.testInsertPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch14-extensions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.web.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.web" />
-      <option name="MAIN_CLASS_NAME" value="org.example.web.TestWebClientMockito" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PassengerTest" />
+      <option name="METHOD_NAME" value="testInsertPassenger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch14-extensions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PassengerTest" />
+      <option name="METHOD_NAME" value="testPassenger" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestWebClientMockito" />
-        <item itemvalue="JUnit.TestAccountServiceMockito.testTransferOk" />
-        <item itemvalue="JUnit.TestAccountServiceMockito" />
-        <item itemvalue="JUnit.TestAccountServiceJMock" />
-        <item itemvalue="JUnit.TestWebClientJMock" />
+        <item itemvalue="JUnit.PassengerTest.testInsertPassenger" />
+        <item itemvalue="JUnit.PassengerTest.testPassenger" />
+        <item itemvalue="JUnit.FlightWithPassengerTest.testNumberOfSeats" />
+        <item itemvalue="JUnit.FlightWithPassengerTest.testAddRemovePassengers" />
+        <item itemvalue="JUnit.FlightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +203,14 @@
       <workItem from="1650791677731" duration="2461000" />
       <workItem from="1653831883579" duration="997000" />
       <workItem from="1653832903474" duration="9028000" />
+      <workItem from="1653844554320" duration="791000" />
+      <workItem from="1654108138616" duration="22378000" />
+      <workItem from="1654332876241" duration="4447000" />
+      <workItem from="1654801939346" duration="819000" />
+      <workItem from="1655023226440" duration="3642000" />
+      <workItem from="1655534092177" duration="9000" />
+      <workItem from="1655564422403" duration="729000" />
+      <workItem from="1655568711372" duration="3673000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -289,7 +303,84 @@
       <option name="project" value="LOCAL" />
       <updated>1653844045855</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added chapter 9 module and maven dependencies">
+      <created>1653844675536</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653844675536</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added number List frequency counter, sorter and tests">
+      <created>1654173782546</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654173782546</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added chapter Arquillian in-container tests">
+      <created>1654335781199</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654335781199</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added chapter 13 module with classes and tests">
+      <created>1655026270777</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655026270777</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added gitignore file">
+      <created>1655564551528</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655564551528</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added chapter 14 module and maven dependencies">
+      <created>1655568930715</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655568930715</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added to chapter 14 jdbc and model class">
+      <created>1655569132200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655569132200</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added ExecutionContextExtension class for junit extensions">
+      <created>1655571182121</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655571182121</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added H2 dependency">
+      <created>1655571430231</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655571430231</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added DatabaseOperationsExtension class that implements before and after interfaces">
+      <created>1655572001217</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655572001217</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Implemented methods to test insert, update and delete passenger.">
+      <created>1655627124721</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655627124721</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +400,34 @@
     <MESSAGE value="Test examples with hamcrest tests" />
     <MESSAGE value="Added new module of chapter 06 good test quality" />
     <MESSAGE value="Added chapter 8 module and mockito, JMock, easyMock test examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added chapter 8 module and mockito, JMock, easyMock test examples" />
+    <MESSAGE value="Added chapter 9 module and maven dependencies" />
+    <MESSAGE value="Added number List frequency counter, sorter and tests" />
+    <MESSAGE value="Added chapter Arquillian in-container tests" />
+    <MESSAGE value="Added chapter 13 module with classes and tests" />
+    <MESSAGE value="Added gitignore file" />
+    <MESSAGE value="Added chapter 14 module and maven dependencies" />
+    <MESSAGE value="Added to chapter 14 jdbc and model class" />
+    <MESSAGE value="Added ExecutionContextExtension class for junit extensions" />
+    <MESSAGE value="Added H2 dependency" />
+    <MESSAGE value="Added DatabaseOperationsExtension class that implements before and after interfaces" />
+    <MESSAGE value="Implemented methods to test insert, update and delete passenger." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented methods to test insert, update and delete passenger." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/App.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch09-incontainer/src/main/java/org/example/App.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/junit_in_action_third_edition$lt_debarz_chapter_06_in_DifferentTestingStrategies.ic" NAME="lt.debarz.chapter_06 in DifferentTestingStrategies Coverage Results" MODIFIED="1650792197325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
