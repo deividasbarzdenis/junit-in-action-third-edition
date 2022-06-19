@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="Added DatabaseOperationsExtension class that implements before and after interfaces">
-      <change afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/extensions/DataAccessObjectParameterResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/extensions/handleTestExecutionException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/PassengerTest.java" afterDir="false" />
     </list>
@@ -86,26 +84,11 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassengerTest.testInsertPassenger">
+  <component name="RunManager" selected="JUnit.PassengerTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13-continuous" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FlightTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +121,21 @@
       <option name="MAIN_CLASS_NAME" value="org.example.FlightWithPassengerTest" />
       <option name="METHOD_NAME" value="testNumberOfSeats" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch14-extensions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PassengerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengerTest" />
         <item itemvalue="JUnit.PassengerTest.testInsertPassenger" />
         <item itemvalue="JUnit.PassengerTest.testPassenger" />
         <item itemvalue="JUnit.FlightWithPassengerTest.testNumberOfSeats" />
         <item itemvalue="JUnit.FlightWithPassengerTest.testAddRemovePassengers" />
-        <item itemvalue="JUnit.FlightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,7 @@
       <workItem from="1655023226440" duration="3642000" />
       <workItem from="1655534092177" duration="9000" />
       <workItem from="1655564422403" duration="729000" />
-      <workItem from="1655568711372" duration="3673000" />
+      <workItem from="1655568711372" duration="4426000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -380,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655627124721</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="created DataAccessObjectParameterResolver class that implements ParameterResolver">
+      <created>1655627556450</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1655627556450</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +416,8 @@
     <MESSAGE value="Added H2 dependency" />
     <MESSAGE value="Added DatabaseOperationsExtension class that implements before and after interfaces" />
     <MESSAGE value="Implemented methods to test insert, update and delete passenger." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented methods to test insert, update and delete passenger." />
+    <MESSAGE value="created DataAccessObjectParameterResolver class that implements ParameterResolver" />
+    <option name="LAST_COMMIT_MESSAGE" value="created DataAccessObjectParameterResolver class that implements ParameterResolver" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
