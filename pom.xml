@@ -17,6 +17,7 @@
         <module>ch10-maven</module>
         <module>ch13-continuous</module>
         <module>ch14-extensions</module>
+        <module>ch15-gui</module>
     </modules>
 
     <properties>
