@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/HtmlUnitPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/ManagedWebClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/JavadocPageAllBrowserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HtmlUnitPageTest.testClassNav">
+  <component name="RunManager" selected="JUnit.JavadocPageAllBrowserTest.testClassNav">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -124,6 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavadocPageAllBrowserTest.testClassNav" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15-htmlunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.JavadocPageAllBrowserTest" />
+      <option name="METHOD_NAME" value="testClassNav(com.gargoylesoftware.htmlunit.BrowserVersion)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch14-extensions" />
       <extension name="coverage">
@@ -155,29 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassengerTest.testPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch14-extensions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.PassengerTest" />
-      <option name="METHOD_NAME" value="testPassenger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavadocPageAllBrowserTest.testClassNav" />
         <item itemvalue="JUnit.HtmlUnitPageTest.testClassNav" />
         <item itemvalue="JUnit.HtmlUnitPageTest.homePage" />
         <item itemvalue="JUnit.PassengerTest" />
         <item itemvalue="JUnit.PassengerTest.testInsertPassenger" />
-        <item itemvalue="JUnit.PassengerTest.testPassenger" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +208,7 @@
       <workItem from="1655564422403" duration="729000" />
       <workItem from="1655568711372" duration="4918000" />
       <workItem from="1656072919254" duration="13000" />
-      <workItem from="1656073346027" duration="1663000" />
+      <workItem from="1656073346027" duration="2509000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -421,14 +420,20 @@
       <option name="project" value="LOCAL" />
       <updated>1656239207235</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Created test class to test htmlunit library">
+      <created>1656240336396</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1656240336396</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test examples with @Tag annotation" />
     <MESSAGE value="Test examples with Assertions" />
     <MESSAGE value="Test examples with Dependency injection in JUnit 5" />
     <MESSAGE value="Test examples with repeated tests" />
@@ -453,7 +458,8 @@
     <MESSAGE value="created ch15-htmlunit module" />
     <MESSAGE value="created ch15-selenium module" />
     <MESSAGE value="Added htmlunit dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added htmlunit dependencies" />
+    <MESSAGE value="Created test class to test htmlunit library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created test class to test htmlunit library" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
