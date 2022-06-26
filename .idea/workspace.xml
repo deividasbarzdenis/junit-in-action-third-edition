@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/extensions/handleTestExecutionException.java" afterDir="false" />
+    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="created TestExecutionExceptionHandler class to test existing passengers">
+      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch14-extensions/src/test/java/org/example/PassengerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15-gui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15-gui/src/main/java/lt/debarz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/main/java/lt/debarz/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15-gui/src/test/java/lt/debarz/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Project.color": "4b234e",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,10 +90,8 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PassengerTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,7 +211,9 @@
       <workItem from="1655023226440" duration="3642000" />
       <workItem from="1655534092177" duration="9000" />
       <workItem from="1655564422403" duration="729000" />
-      <workItem from="1655568711372" duration="4426000" />
+      <workItem from="1655568711372" duration="4918000" />
+      <workItem from="1656072919254" duration="13000" />
+      <workItem from="1656073346027" duration="297000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -385,15 +390,27 @@
       <option name="project" value="LOCAL" />
       <updated>1655627556450</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="created TestExecutionExceptionHandler class to test existing passengers">
+      <created>1655628044992</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1655628044992</updated>
+    </task>
+    <task id="LOCAL-00029" summary="created module ch15-gui">
+      <created>1655628415086</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655628415086</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="third" />
-    <MESSAGE value="Added module of Exploring core JUnit" />
     <MESSAGE value="Added JUnit 5 dependencies and Calculator class ir test class." />
     <MESSAGE value="Test examples with @DisplayName annotation" />
     <MESSAGE value="Test examples with @Nested annotation" />
@@ -417,7 +434,9 @@
     <MESSAGE value="Added DatabaseOperationsExtension class that implements before and after interfaces" />
     <MESSAGE value="Implemented methods to test insert, update and delete passenger." />
     <MESSAGE value="created DataAccessObjectParameterResolver class that implements ParameterResolver" />
-    <option name="LAST_COMMIT_MESSAGE" value="created DataAccessObjectParameterResolver class that implements ParameterResolver" />
+    <MESSAGE value="created TestExecutionExceptionHandler class to test existing passengers" />
+    <MESSAGE value="created module ch15-gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="created module ch15-gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

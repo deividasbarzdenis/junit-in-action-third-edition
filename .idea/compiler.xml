@@ -15,6 +15,7 @@
         <module name="unit_architecture" />
         <module name="ch09-incontainer" />
         <module name="ch13-continuous" />
+        <module name="ch15-htmlunit" />
         <module name="differentTestingStrategies" />
         <module name="ch08-mocks" />
         <module name="ch14-extensions" />
