@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/InLineHtmlFixtureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/FormTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,14 +84,14 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InLineHtmlFixtureTest.testInLineHtmlFixtures">
+  <component name="RunManager" selected="JUnit.FormTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HtmlUnitPageTest.homePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch15-htmlunit" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +100,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.debarz" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.HtmlUnitPageTest" />
-      <option name="METHOD_NAME" value="homePage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.FormTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HtmlUnitPageTest.testClassNav" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormTest.testForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch15-htmlunit" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +115,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.debarz" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.HtmlUnitPageTest" />
-      <option name="METHOD_NAME" value="testClassNav" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.FormTest" />
+      <option name="METHOD_NAME" value="testForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormTest" />
+        <item itemvalue="JUnit.FormTest.testForm" />
         <item itemvalue="JUnit.InLineHtmlFixtureTest.testInLineHtmlFixtures" />
         <item itemvalue="JUnit.InLineHtmlFixtureTest.testInLineHtmlFixture" />
         <item itemvalue="JUnit.JavadocPageAllBrowserTest.testClassNav" />
-        <item itemvalue="JUnit.HtmlUnitPageTest.testClassNav" />
-        <item itemvalue="JUnit.HtmlUnitPageTest.homePage" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +208,7 @@
       <workItem from="1655564422403" duration="729000" />
       <workItem from="1655568711372" duration="4918000" />
       <workItem from="1656072919254" duration="13000" />
-      <workItem from="1656073346027" duration="3249000" />
+      <workItem from="1656073346027" duration="3933000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -435,14 +434,20 @@
       <option name="project" value="LOCAL" />
       <updated>1656241054115</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Created  mocked test connection that avoids using an actual URL">
+      <created>1656241978689</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1656241978689</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test examples with Dependency injection in JUnit 5" />
     <MESSAGE value="Test examples with repeated tests" />
     <MESSAGE value="Test examples with dynamic tests" />
     <MESSAGE value="Test examples with hamcrest tests" />
@@ -467,7 +472,8 @@
     <MESSAGE value="Added htmlunit dependencies" />
     <MESSAGE value="Created test class to test htmlunit library" />
     <MESSAGE value="Created test to test application with more than one browser version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test to test application with more than one browser version" />
+    <MESSAGE value="Created  mocked test connection that avoids using an actual URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created  mocked test connection that avoids using an actual URL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
