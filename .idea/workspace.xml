@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/FormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/WindowConfirmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormTest">
+  <component name="RunManager" selected="JUnit.WindowConfirmTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -122,22 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InLineHtmlFixtureTest.testInLineHtmlFixture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch15-htmlunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.debarz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.debarz" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.InLineHtmlFixtureTest" />
-      <option name="METHOD_NAME" value="testInLineHtmlFixture" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InLineHtmlFixtureTest.testInLineHtmlFixtures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch15-htmlunit" />
       <extension name="coverage">
@@ -154,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavadocPageAllBrowserTest.testClassNav" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowConfirmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch15-htmlunit" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +147,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.debarz" />
-      <option name="MAIN_CLASS_NAME" value="lt.debarz.JavadocPageAllBrowserTest" />
-      <option name="METHOD_NAME" value="testClassNav(com.gargoylesoftware.htmlunit.BrowserVersion)" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.WindowConfirmTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowConfirmTest.testWindowConfirm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15-htmlunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.debarz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.debarz" />
+      <option name="MAIN_CLASS_NAME" value="lt.debarz.WindowConfirmTest" />
+      <option name="METHOD_NAME" value="testWindowConfirm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WindowConfirmTest" />
+        <item itemvalue="JUnit.WindowConfirmTest.testWindowConfirm" />
         <item itemvalue="JUnit.FormTest" />
         <item itemvalue="JUnit.FormTest.testForm" />
         <item itemvalue="JUnit.InLineHtmlFixtureTest.testInLineHtmlFixtures" />
-        <item itemvalue="JUnit.InLineHtmlFixtureTest.testInLineHtmlFixture" />
-        <item itemvalue="JUnit.JavadocPageAllBrowserTest.testClassNav" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +207,7 @@
       <workItem from="1655564422403" duration="729000" />
       <workItem from="1655568711372" duration="4918000" />
       <workItem from="1656072919254" duration="13000" />
-      <workItem from="1656073346027" duration="3933000" />
+      <workItem from="1656073346027" duration="5253000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -441,14 +440,20 @@
       <option name="project" value="LOCAL" />
       <updated>1656241978689</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Created tests to test form of input">
+      <created>1656242592389</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1656242592389</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test examples with repeated tests" />
     <MESSAGE value="Test examples with dynamic tests" />
     <MESSAGE value="Test examples with hamcrest tests" />
     <MESSAGE value="Added new module of chapter 06 good test quality" />
@@ -473,7 +478,8 @@
     <MESSAGE value="Created test class to test htmlunit library" />
     <MESSAGE value="Created test to test application with more than one browser version" />
     <MESSAGE value="Created  mocked test connection that avoids using an actual URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created  mocked test connection that avoids using an actual URL" />
+    <MESSAGE value="Created tests to test form of input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created tests to test form of input" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
