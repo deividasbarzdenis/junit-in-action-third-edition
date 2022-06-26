@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="created TestExecutionExceptionHandler class to test existing passengers">
-      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b7d3aa39-6140-44fd-a1f1-cf4ffe0563b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch15-gui/ch15-selenium/src/test/java/lt/debarz/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/ch15-selenium/src/test/java/lt/debarz/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch15-gui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15-gui/src/main/java/lt/debarz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/main/java/lt/debarz/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch15-gui/src/test/java/lt/debarz/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch15-gui/ch15-htmlunit/src/test/java/lt/debarz/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +209,7 @@
       <workItem from="1655564422403" duration="729000" />
       <workItem from="1655568711372" duration="4918000" />
       <workItem from="1656072919254" duration="13000" />
-      <workItem from="1656073346027" duration="297000" />
+      <workItem from="1656073346027" duration="688000" />
     </task>
     <task id="LOCAL−00001" summary="third">
       <created>1644352250240</created>
@@ -404,15 +400,27 @@
       <option name="project" value="LOCAL" />
       <updated>1655628415086</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="created ch15-htmlunit module">
+      <created>1656238770069</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1656238770070</updated>
+    </task>
+    <task id="LOCAL-00031" summary="created ch15-selenium module">
+      <created>1656238874437</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1656238874437</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added JUnit 5 dependencies and Calculator class ir test class." />
-    <MESSAGE value="Test examples with @DisplayName annotation" />
     <MESSAGE value="Test examples with @Nested annotation" />
     <MESSAGE value="Test examples with @Tag annotation" />
     <MESSAGE value="Test examples with Assertions" />
@@ -436,7 +444,9 @@
     <MESSAGE value="created DataAccessObjectParameterResolver class that implements ParameterResolver" />
     <MESSAGE value="created TestExecutionExceptionHandler class to test existing passengers" />
     <MESSAGE value="created module ch15-gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="created module ch15-gui" />
+    <MESSAGE value="created ch15-htmlunit module" />
+    <MESSAGE value="created ch15-selenium module" />
+    <option name="LAST_COMMIT_MESSAGE" value="created ch15-selenium module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
