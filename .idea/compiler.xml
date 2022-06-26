@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Exploring_core_JUnit" />
-        <module name="ch10-maven" />
+        <module name="ch15-selenium" />
         <module name="DifferentTestingStrategies" />
         <module name="Unit_Architecture" />
+        <module name="ch13-continuous" />
+        <module name="ch08-mocks" />
+        <module name="ch14-extensions" />
+        <module name="Exploring_core_JUnit" />
+        <module name="ch10-maven" />
         <module name="exploring_core_JUnit" />
         <module name="unit_architecture" />
         <module name="ch09-incontainer" />
-        <module name="ch13-continuous" />
         <module name="ch15-htmlunit" />
         <module name="differentTestingStrategies" />
-        <module name="ch08-mocks" />
-        <module name="ch14-extensions" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

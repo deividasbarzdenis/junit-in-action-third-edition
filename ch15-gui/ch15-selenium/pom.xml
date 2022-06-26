@@ -1,22 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>junit-in-action-third-edition</artifactId>
-        <groupId>org.example</groupId>
+        <artifactId>ch15-gui</artifactId>
+        <groupId>lt.debarz</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>lt.debarz</groupId>
-    <artifactId>ch15-gui</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>ch15-selenium</artifactId>
+    <packaging>jar</packaging>
 
-    <name>ch15-gui</name>
+    <name>ch15-selenium</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>ch15-htmlunit</module>
-        <module>ch15-selenium</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
